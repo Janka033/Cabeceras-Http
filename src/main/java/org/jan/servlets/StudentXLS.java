@@ -63,10 +63,10 @@ public class StudentXLS extends HttpServlet{
             // Itera sobre la lista de estudiantes y genera una fila HTML para cada uno.
             studentDtos.forEach(p -> {
                 out.println("<tr>");
-                out.println("<td>" + p.getId() + "</td>");
-                out.println("<td>" + p.getName() + "</td>");
-                out.println("<td>" + p.getEmail() + "</td>");
-                out.println("<td>" + p.getSemestre() + "</td>");
+                out.println("<td>" + p.id() + "</td>");
+                out.println("<td>" + p.name() + "</td>");
+                out.println("<td>" + p.email() + "</td>");
+                out.println("<td>" + p.semestre() + "</td>");
                 out.println("</tr>");
             });
             // Cierra la tabla.
