@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class StudentServiceImpl implements StudentService {
     private static final List<Student> students = Arrays.asList(
             new Student(1L, "Juan", "juan@gmail.com", "Primero"),
-            new Student(2L, "María", "maria@gmail.com", "Segundo"),
+            new Student(2L, "Marta", "maria@gmail.com", "Segundo"),
             new Student(3L, "Pedro", "pedro@gmail.com", "Tercero")
     );
 
